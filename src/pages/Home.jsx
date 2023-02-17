@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
-import { Context } from '../context/context'
+import { Context } from '../Context/Context'
+
 
 function Home() {
     const {testState} = useContext(Context)
